@@ -1,0 +1,240 @@
+/* Global styles */
+*
+{
+    font-family: cursive;
+}
+body
+{
+    margin: 0;
+}
+
+/* header section */
+
+
+header
+{
+    background-color: #7af194;
+    padding: 1rem 2rem 1.5rem;
+}
+
+/* navbar section */
+
+a
+{
+    text-decoration: none;
+}
+
+nav
+{
+    margin-bottom: 32px;
+}
+#nav-logo
+{
+    font: 900 2rem 'Montserrat Alternates', sans-serif;
+    color: #9f55e4;
+}
+#nav-brand
+{
+    padding: 1%;
+    display: inline-block;
+}
+.nav-item
+{
+    display: inline-block;
+    position: absolute;
+    right: 18px;
+    top: 20px;
+}
+.nav-link
+{
+    margin-right: 1rem;
+    font: 700 1.2rem 'Ubuntu',Geneva, Verdana, sans-serif;
+    color: #ba75fa;
+}
+
+/* product advertisement */
+
+#Ad
+{
+    font-size: 3.9rem;
+    width: 60%;
+    float: left;
+}
+#product-img
+{
+    height: 480px;
+    margin-left: 6rem;
+    border-radius: 16px;
+}
+
+/* download buttons */
+
+#dwnld
+{
+    margin: 2rem 4rem;
+}
+.dwnldbtn
+{
+    height: 3rem;
+    width: 8.9rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-right: 32px;
+    border-radius: 6px;
+    color: #34643f;
+    background-color: hsl(126, 97%, 85%);
+}
+i
+{
+    margin-right: 8px;
+}
+
+/* features section */
+#features
+{
+    margin: 4rem 2rem;
+}
+.feature
+{
+    display: inline-block;
+    width: 26%;
+    line-height: 2;
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 18px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 3rem;
+}
+.feature-img
+{
+    width: 100%;
+    height: 200px;
+    border-radius: 18px;
+}
+
+/* review section */
+#reviews
+{
+    background-color: #c6fbd1;
+    padding: 3rem;
+}
+.review
+{
+    font-size: 1.5rem;
+}
+cite
+{
+    font-size: 1rem;
+}
+.review-img
+{
+    height: 128px;
+    width: 128px;
+    border-radius: 50%;
+    margin-right: 32px;
+}
+#review-img-1
+{
+    float: left;
+}
+#review-img-2
+{
+    float: right;
+}
+#cite-2
+{
+    padding-left: 20%;
+}
+
+/* download section */
+
+#download
+{
+    margin: 4rem;
+    text-align: center;
+}
+#download-txt
+{
+    font-size: 2rem;
+}
+
+/* footer section */
+
+footer
+{
+    text-align: center;
+    padding: 64px;
+    background-color: #7af194;
+}
+.social-icon
+{
+    margin: auto 16px;
+    color: #34643f;
+}
+#copyright
+{
+    margin-top: 36px;
+    color: rgb(161, 158, 157);
+}
+
+/* Adding media queries */
+
+@media (max-width: 830px)
+{
+
+    html
+    {
+        font-size: 10px;
+    }
+    #Ad
+    {
+        text-align: center;
+        width: fit-content;
+    }
+    #product-img
+    {
+        position: relative;
+        left: 15vw;
+        margin-top: 32px;
+        padding-bottom: 64px;
+        height: 400px;
+    }
+    .feature
+    {
+        width:25%;
+    }
+}
+
+@media (min-width: 1177px)
+{
+    .review
+    {
+        font-size: 2vw;
+    }
+    cite
+    {
+        font-size: 1.5vw;
+    }
+    #features
+    {
+        margin-left: 8rem;
+    }
+}
+
+@media (min-width: 1220px)
+{
+    .nav-item
+    {
+        margin-right: 6rem;
+    }
+}
+
+@media (min-width: 1418px)
+{
+    #product-img
+    {
+        position: relative;
+        right:-120px;
+    }
+}
